@@ -9,8 +9,85 @@ html {
 }
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: "Libre Franklin", sans-serif;
+  text-align: center;
+}
+
+body,
+input,
+.submit-btn {
+  width: 90%;
+}
+
+.intro {
+  margin-top: 5em;
+}
+
+.logo {
+  max-width: 56px;
+}
+
+.main-heading {
+  font-size: 1.1rem;
+  margin-top: 1.5em;
+}
+
+.light,
+.sub-heading {
+  font-weight: 300;
+}
+
+.light,
+.copyright {
+  color: hsl(0, 0%, 59%);
+}
+
+.sub-heading {
+  font-size: 0.6rem;
+  color: hsl(209, 33%, 12%);
+}
+
+.sub-heading,
+input {
+  font-size: 0.6rem;
+}
+
+input {
+  padding: 1em 2.5em;
+  border: 1px solid hsl(223, 100%, 88%);
+  border-radius: 100px;
+}
+
+::placeholder {
+  color: #b8c7ed;
+  opacity: 90%;
+}
+
+.submit-btn {
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  border-radius: 100px;
+  padding: 1em 0;
+  margin: 1em 0 5em;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.dashboard {
+  width: 96%;
+  max-width: 320px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5em;
+  margin-top: 5em;
+}
+
+.copyright {
+  font-size: 0.5rem;
 }
 
 .attribution {
