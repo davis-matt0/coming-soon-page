@@ -77,6 +77,16 @@ input:user-invalid {
   color: white;
   letter-spacing: 1px;
   font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: black;
+  transition: 200ms;
+}
+
+.submit-btn:active {
+  transform: scale(90%);
 }
 
 .dashboard {
