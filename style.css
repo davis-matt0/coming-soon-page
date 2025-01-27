@@ -59,6 +59,10 @@ input {
   border-radius: 100px;
 }
 
+input:user-invalid {
+  border: 1px solid red;
+}
+
 ::placeholder {
   color: #b8c7ed;
   opacity: 90%;
